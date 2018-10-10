@@ -1,0 +1,50 @@
+.card {
+  background: #fff;
+  box-shadow: 0 5px 1px #EEEEEE;
+  padding: 8px;
+  margin-bottom: 24px;
+}
+
+.rating-header {
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.rating-header::first-letter {
+  text-transform: capitalize;
+}
+
+.choices {
+  padding-top: 8px;
+}
+
+.choice {
+  padding: 0px 4%;
+  display: inline-block;
+}
+
+.choice-result,
+.choice-result-biggest {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.choice-result-biggest {
+  color: #9575cd;
+}
+
+
+.choice > svg {
+  width: 36px;
+  height: 36px;
+}
+
+.ico-body {
+  fill: #ffcc4d;
+}
+
+.ico-mouth,
+.ico-eye {
+  fill: #664500;
+}

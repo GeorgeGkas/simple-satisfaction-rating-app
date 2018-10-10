@@ -1,0 +1,120 @@
+.card {
+  background: #fff;
+  box-shadow: 0 5px 1px #EEEEEE;
+  padding: 8px;
+  margin-bottom: 24px;
+}
+
+.card-error {
+  box-shadow: 0 5px 1px #F50057;
+}
+
+.rating-header {
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.rating-header::first-letter {
+  text-transform: capitalize;
+}
+
+.choices {
+  background: #ebebeb;
+  border-radius: 1000px;
+  padding-top: 8px;
+  font-size: 36px;
+}
+
+.choices > label {
+  padding: 0px 4%;
+}
+
+.choices > label > input[type='radio'] {
+  visibility: hidden;
+  position: absolute;
+  left: -8000px;
+}
+
+.choices > label > svg {
+  width: 36px;
+  height: 36px;
+}
+
+input.rating:checked + svg .ico-body,
+input.rating:checked + svg .ico-mouth,
+input.rating:checked + svg .ico-eyes,
+input.rating:hover + svg .ico-body,
+input.rating:hover + svg .ico-mouth,
+input.rating:hover + svg .ico-eyes  {
+	transition: fill .2s;
+}
+
+.ico-body {
+  fill: #cfcfcf;
+}
+
+.ico-mouth,
+.ico-eye {
+  fill: #9e9e9e;
+}
+
+input.rating:checked + svg .ico-body {
+  fill: #ffcc4d;
+}
+
+input.rating:hover:not(:checked) + svg .ico-body {
+  fill: rgba(255, 204, 77, .5);
+}
+
+input.rating:checked + svg .ico-mouth,
+input.rating:checked + svg .ico-eye {
+  fill: #664500;
+}
+
+#info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+.info-success {
+  color: #9575CD;
+}
+
+.info-error {
+  color: #F50057;
+}
+
+#submit {
+  border: 0;
+  color: #fff;
+  background: #9575CD;
+  font-size: 21px;
+  font-weight: 500;
+  padding: 16px 8px;
+  width: 50%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  box-shadow: 0 5px 0px #7E57C2;
+  border-bottom: 2px solid #7E57C2;
+}
+
+#submit:hover {
+  background: #7E57C2;
+  box-shadow: 0 4px 1px #673AB7;
+  border-bottom: 2px solid #673AB7;
+  transition: all 0.1s ease-in;
+}
+#submit:active {
+  transform: translateY(4px);
+  border-bottom-width: 2px;
+  box-shadow: none;
+}
+
+#submit > span {
+  outline: none;
+}

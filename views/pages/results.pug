@@ -1,0 +1,9 @@
+extends ../layout.pug
+include ../mixins/resultsCard.pug
+
+block styles
+  link(rel='stylesheet', href='/css/results.css')
+
+block content
+  each result, question in __RESULTS__
+    +resultsCard(question, result, __HIGHEST_RATING__[question])

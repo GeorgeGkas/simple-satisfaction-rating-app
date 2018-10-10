@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background: #fafafa;
+  color: #414141;
+}
+
+#wrapper {
+  padding: 0 8px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  letter-spacing: 0.75px;
+}
+
+#title {
+  padding: 32px;
+  font-size: 21px;
+  font-weight: 700;
+}

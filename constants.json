@@ -1,0 +1,14 @@
+{
+  "title": "How satisfy you are by your spending in each category?",
+  "questions": [
+    "rent",
+    "food",
+    "insurance",
+    "education",
+    "electronics",
+    "taxes",
+    "entertainment",
+    "personal care",
+    "transportation"
+  ]
+}

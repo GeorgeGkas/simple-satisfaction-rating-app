@@ -1,0 +1,16 @@
+extends ../layout.pug
+include ../mixins/questionCard.pug
+
+block styles
+  link(rel='stylesheet', href='/css/question.css')
+
+block content
+  each question, index in __QUESTIONS__
+    +questionCard(index, question)
+
+  p#info
+  button#submit 
+    span Submit
+
+block scripts
+  script(src='/scripts/question.js')
