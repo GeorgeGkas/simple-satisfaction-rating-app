@@ -35,6 +35,6 @@ The app is now served on `http://localhost:3000`
 
 ## Example
 
-See the running example in [simple-satisfaction-rating-app.herokuapp.com](simple-satisfaction-rating-app.herokuapp.com).
+See the running example in [simple-satisfaction-rating-app.herokuapp.com](https://simple-satisfaction-rating-app.herokuapp.com).
 
-To see the results of the voting navigate to [simple-satisfaction-rating-app.herokuapp.com/results](simple-satisfaction-rating-app.herokuapp.com/results).
+To see the results of the voting navigate to [simple-satisfaction-rating-app.herokuapp.com/results](https://simple-satisfaction-rating-app.herokuapp.com/results).
